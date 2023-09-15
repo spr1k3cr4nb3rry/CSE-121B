@@ -1,1 +1,1 @@
-# CSE-121B
+# Izzie Vazquez | CSE 121B | BYU-Idaho
