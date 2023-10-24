@@ -27,7 +27,7 @@ myProfile.placesLived.push(
 
 /* DOM Manipulation - Output */
 /* Name */
-document.querySelector('#name').textContext = myProfile.name;
+document.querySelector('#name').textContent = myProfile.name;
 
 /* Photo with attributes */
 document.getElementById('photo').src = myProfile.photo;
