@@ -1,30 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pokemon Encyclopedia</title>
-  <link rel="stylesheet" href="styles/project.css">
-  <script src="scripts/project.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/project.css">
+    <title>Pokémon Encyclopedia</title>
 </head>
-
 <body>
-    <header>
-        <h1>Pokemon Encyclopedia</h1>
-        <input type="text" id="searchInput" placeholder="Search Pokémon by Name...">
-        <select id="typeFilter" title="Choose a type filter.">
-            <option value="all">All Types</option>
-            <option value="normal">Normal</option>
-            <option value="fire">Fire</option>
-            <option value="water">Water</option>
-            <!-- Add more types as needed -->
-        </select>
-    </header>
-
-    <main id="pokemonList">
-        <!-- Pokémon cards will be displayed here. -->
-    </main>
+    <div class="grid-container">
+        <div class="item1">
+            <h1>Pokémon Encyclopedia</h1>
+        </div>
+        <div class="item2">
+            <img id="sprite" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="A picture of a Pokémon.">
+        </div>
+        <div class="item3">
+            <h2 id="name">Bulbasaur</h2>
+            <img class="type" id="type1" src="images/grass.png" alt="Grass">
+            <img class="type" id="type2" src="images/poison.png" alt="Poison">
+        </div>
+        <div class="item4">
+            <h3>Base Stats</h3>
+            <div>
+                <p style="margin: 0; display: inline;">HP: </p><p id="hp" style="margin: 0; display: inline;">45</p>
+                <br>
+                <p style="margin: 0; display: inline;">Atk: </p><p id="atk" style="margin: 0; display: inline;">49</p>
+                <br>
+                <p style="margin: 0; display: inline;">Def: </p><p id="def" style="margin: 0; display: inline;">49</p>
+                <br>
+                <p style="margin: 0; display: inline;">Sp. Atk: </p><p id="satk" style="margin: 0; display: inline;">65</p>
+                <br>
+                <p style="margin: 0; display: inline;">Sp. Def: </p><p id="sdef" style="margin: 0; display: inline;">65</p>
+                <br>
+                <p style="margin: 0; display: inline;">Speed: </p><p id="speed" style="margin: 0; display: inline;">45</p>
+            </div>
+        </div>
+        <div class="item5">
+            <input type="text" id="search" placeholder="Search Pokémon...">
+        </div>
+        <div class="item6">
+            <select id="typeFilter">
+                <option value="All">All</option>
+                <option value="Fire">Fire</option>
+                <option value="Water">Water</option>
+            </select>
+        </div>
+        <div class="item7">
+            <input value="Random" type="submit" />
+        </div>
+        <div class="item8">
+            <img class="result" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="A picture of a Pokémon.">
+        </div>
+        <div class="item9">
+            <img class="result" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="A picture of a Pokémon.">
+        </div>
+        <div class="item10">
+            <img class="result" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="A picture of a Pokémon.">
+        </div>
+        <div class="item11">
+            <img class="result" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="A picture of a Pokémon.">
+        </div>
+        <div class="item12">
+            <img class="result" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="A picture of a Pokémon.">
+        </div>
+        <div class="item13">
+            <img class="result" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="A picture of a Pokémon.">
+        </div>
+    </div>
 </body>
-
 </html>

@@ -1,46 +1,69 @@
-body {
-    font-family: Arial, sans-serif;
+#sprite {
+    width: 300px;
 }
 
-header {
-    background-color: #ee1515;
-    color: white;
-    padding: 20px;
+.item1 { grid-area: header; }
+
+.item2 { 
+    grid-area: main-picture;
+    background-color: floralwhite; 
+}
+
+.item3 { 
+    grid-area: main-facts;
+    background-color: floralwhite;
+}
+
+.item4 { 
+    grid-area: dex-entry; 
+    background-color: floralwhite;
+}
+
+.item5 { grid-area: search-bar; }
+.item6 { grid-area: type-filter; }
+.item7 { grid-area: random-button; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header'
+      'main-picture main-facts dex-entry'
+      'search-bar type-filter random-button';
+    gap: 0px;
+    padding: 0px;
+    grid-template-columns: 33% 33% 33%; 
+  }
+
+.grid-container > div {
     text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.result {
+    width: 300px;
+}
+
+.type {
+    width: 50px;
 }
 
 h1 {
-    margin: 0;
+    font-size: 30px;
 }
 
-#search, #filter {
-    padding: 10px;
-    margin: 10px;
+h2 {
+    font-size: 30px;
 }
 
-/* Define a wrapper for the Pokémon cards */
-#pokemonList {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+h3 {
+    font-size: 20px;
 }
 
-.card {
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    width: 200px;
-    text-align: center; /* Center the content within the card */
+p {
+    font-size: 15px;
 }
 
-.card img {
-    max-width: 100px;
-    display: block;
-    margin: 0 auto;
-}
-
-.card h2 {
-    font-size: 1.2rem;
-    margin: 10px 0; /* Add some margin below the Pokémon name */
+* {
+    background-color: #ee1515;
 }
