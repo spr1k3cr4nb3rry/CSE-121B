@@ -33,7 +33,7 @@ const getTemples = async () => {
     }
     
     displayTemples();
-}
+};
 
 /* reset Function */
 const reset = function() {

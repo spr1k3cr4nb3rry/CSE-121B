@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Bulbasaur",
+        "type": ["grass", "poison"],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/f/fb/0001Bulbasaur.png/900px-0001Bulbasaur.png"
+    },
+    {
+        "name": "Ivysaur",
+        "type": ["grass", "poison"],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/8/81/0002Ivysaur.png/375px-0002Ivysaur.png"
+    },
+    {
+        "name": "Venusaur",
+        "type": ["grass", "poison"],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/0003Venusaur.png/375px-0003Venusaur.png"
+    },
+    {
+        "name": "Charmander",
+        "type": ["fire", ""],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/2/27/0004Charmander.png/375px-0004Charmander.png"
+    },
+    {
+        "name": "Charmeleon",
+        "type": ["fire", ""],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/0/05/0005Charmeleon.png/375px-0005Charmeleon.png"
+    },
+    {
+        "name": "Charizard",
+        "type": ["fire", "flying"],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/3/38/0006Charizard.png/375px-0006Charizard.png"
+    },
+    {
+        "name": "Squirtle",
+        "type": ["water", ""],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/5/54/0007Squirtle.png/375px-0007Squirtle.png"
+    },
+    {
+        "name": "Wartortle",
+        "type": ["water", ""],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/0/0f/0008Wartortle.png/375px-0008Wartortle.png"
+    },
+    {
+        "name": "Blastoise",
+        "type": ["water", ""],
+        "sprite": "https://archives.bulbagarden.net/media/upload/thumb/0/0a/0009Blastoise.png/375px-0009Blastoise.png"
+    }
+]
